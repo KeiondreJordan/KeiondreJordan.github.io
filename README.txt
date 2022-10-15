@@ -1,34 +1,20 @@
-Spectral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Keiondre's Portfolio by Keiondre Jordan
+Using a HTML5  setup to showcase a website for my personal projects
+
+As of October 14, 2022, this repo is a work in progress, taking a couple hours each day/week to build.
+
+Project 1 Description:
 
 
-A big, modern, blocky affair with a mobile-style menu, fully responsive styling,
-and an assortment of pre-styled elements. So, pretty much what you were expecting
--- except, of course, for how it's put together, specifically:
+Project 1 Description:
 
-- It's built with components from my Responsive Tools project.
 
-- It uses flexbox, which eliminates all kinds of terrible hacks and clunky layout
-  stopgaps (like CSS grid systems).
+Project 1 Description:
 
-- It uses Sass* a lot more intelligently, thanks in part to several new mixins
-  and functions I've been working on (as well as a few by @HugoGiraudel).
 
-  (* = still entirely optional if you prefer vanilla CSS :)
 
-- A ton of other stuff.
+Additional Content:
 
-In short, Spectral's the culmination of several new things I'm working on/trying out,
-so please, let me know what you think :)
-
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
-
-(* = not included)
-
-AJ
-aj@lkn.io | @ajlkn
 
 
 Credits:
