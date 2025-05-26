@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body, html {
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+        .section {
+            flex: 1;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px;
+            cursor: pointer;
+            transition: opacity 0.3s;
+        }
+        .section:hover {
+            opacity: 0.8;
+        }
+        .red { background-color: red; }
+        .blue { background-color: blue; }
+        .slate { background-color: slategray; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section red" onclick="location.href='/question1'">Business Question 1</div>
+        <div class="section blue" onclick="location.href='/question2'">Business Question 2</div>
+        <div class="section slate" onclick="location.href='/question3'">Business Question 3</div>
+    </div>
+</body>
+</html>
