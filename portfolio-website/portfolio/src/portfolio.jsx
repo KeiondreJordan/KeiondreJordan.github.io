@@ -1,6 +1,7 @@
 // Keiondre Jordan's Portfolio Website
 // React + TailwindCSS Design, AI-inspired
 
+import App from './App';
 import bgAiCircuit from './assets/bg-ai-circuit.png';
 
 export default function Portfolio() {
@@ -10,15 +11,15 @@ export default function Portfolio() {
       <nav className="flex justify-between items-center px-8 py-4 bg-black bg-opacity-40 shadow-md">
         <h1 className="text-2xl font-bold text-teal-400">Keiondre Jordan</h1>
         <div className="space-x-6">
-          <a href="#home" className="hover:text-teal-300">Home</a>
-          <a href="#data-engineering" className="hover:text-teal-300">Data Engineering</a>
-          <a href="#data-analyst" className="hover:text-teal-300">Data Analyst</a>
-          <a href="#ai-ml" className="hover:text-teal-300">AI + ML</a>
+          <a link="#home" className="hover:text-teal-300">Home</a>
+          <a link="#data-engineering" className="hover:text-teal-300">Data Engineering</a>
+          <a link="#data-analyst" className="hover:text-teal-300">Data Analyst</a>
+          <a link="#ai-ml" className="hover:text-teal-300">AI + ML</a>
         </div>
       </nav>
 
-      {/* Start of Home Section */}
-      {/* Hero Section with AI-Inspired Background */}
+      {/* Start of Home Section with AI-Inspired Background */}
+      
       <section
         id="home"
         className="relative text-center py-28 px-6 bg-cover bg-center bg-no-repeat"
@@ -82,8 +83,8 @@ export default function Portfolio() {
         <div className="mt-6 text-gray-400 italic">Stay tuned — the future is loading...</div>
       </section>
 
-      {/* Blog Scroll Section (Commented Out for Now) */}
-      {/*
+      {/* Blog Scroll Section */}
+
       <section id="blog-preview" className="bg-gray-950 py-20 px-6 border-t border-gray-800">
         <h3 className="text-3xl font-semibold mb-4 text-green-300">Blog Highlights</h3>
         <div className="overflow-x-hidden overflow-y-scroll h-[400px] border rounded-xl p-4 bg-gray-900">
@@ -104,7 +105,7 @@ export default function Portfolio() {
           </div>
         </div>
       </section>
-      */}
+
 
       {/* Footer */}
       <footer className="text-center py-6 text-sm text-gray-500 border-t border-gray-800">
